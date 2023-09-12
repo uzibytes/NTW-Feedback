@@ -181,13 +181,16 @@
         .foot {
           font-size: 12px;
         }
-        .logoimg {
-          width: -webkit-fill-available !important;
-        }
       }
 
       .logoimg {
         width: 100%;
+      }
+
+      @media screen and (max-width: 580px) {
+        .logoimg {
+        width: calc(100vw - 30px) !important;
+        }
       }
 
       /* footer CSS */
