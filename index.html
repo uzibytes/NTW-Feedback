@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>National Technology Week Feedback 2023</title>
 
     <link
@@ -83,7 +85,7 @@
       }
 
       p.feedbackpara {
-        font-size: 16px;
+        font-size: 20;
         font-weight: 500;
         color: #000 !important;
       }
@@ -115,7 +117,7 @@
 
       p.feedbackpara2 {
         font-size: 16px;
-        font-weight: normal;
+        /* font-weight: normal; */
         color: #000 !important;
       }
 
@@ -157,64 +159,108 @@
         padding: 0;
         background-size: 50%;
       }
+      .heading {
+        font-weight: 700;
+        font-size: 3rem;
+      }
 
-	  /* footer CSS */
-	  footer {
-    padding-top: 20px; }
-  
-  .footer-01 {
-    background: #0d1824;
-    position: relative;
-    z-index: 0;
-    overflow: hidden; }
-    .footer-01:after {
-      position: absolute;
-      top: -300px;
-      left: -100px;
-      width: 800px;
-      height: 800px;
-      content: '';
-      background: url("https://preview.colorlib.com/theme/bft/bootstrap-footer-11/images/blob-shape.svg");
-      background-position: center center;
-      background-size: cover;
-      z-index: -1;
-      opacity: .05; }
-    .footer-01 a {
-      color: #7f72e4; }
-    .footer-01 p {
-      color: rgba(255, 255, 255, 0.6); }
-    .footer-01 .copyright {
-      color: rgba(255, 255, 255, 0.3);
-      color: #999999; }
-    .footer-01 .footer-heading {
-      font-size: 18px;
-      margin-bottom: 30px;
-      color: #fff;
-      position: relative; }
+      @media screen and (max-width: 800px) {
+        .content {
+          font-size: 13px;
+        }
+        .heading {
+          font-size: 1.8rem;
+          font-weight: 700;
+        }
+        p.mb-0 {
+          font-size: 13px;
+        }
+        p.subheading {
+          font-weight: 500;
+        }
+        .foot {
+          font-size: 12px;
+        }
+        .logoimg {
+          width: -webkit-fill-available !important;
+        }
+      }
+
+      .logoimg {
+        width: 100%;
+      }
+
+      /* footer CSS */
+      footer {
+        padding-top: 20px;
+      }
+
+      .footer-01 {
+        background: #0d1824;
+        position: relative;
+        z-index: 0;
+        overflow: hidden;
+      }
+      .footer-01:after {
+        position: absolute;
+        top: -300px;
+        left: -100px;
+        width: 800px;
+        height: 800px;
+        content: "";
+        background: url("https://preview.colorlib.com/theme/bft/bootstrap-footer-11/images/blob-shape.svg");
+        background-position: center center;
+        background-size: cover;
+        z-index: -1;
+        opacity: 0.05;
+      }
+      .footer-01 a {
+        color: #7f72e4;
+      }
+      .footer-01 p {
+        color: rgba(255, 255, 255, 0.6);
+      }
+      .footer-01 .copyright {
+        color: rgba(255, 255, 255, 0.3);
+        color: #999999;
+      }
+      .footer-01 .footer-heading {
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: #fff;
+        position: relative;
+      }
       .footer-01 .footer-heading:after {
         position: absolute;
         bottom: -4px;
         left: 0;
-        content: '';
+        content: "";
         width: 40px;
         height: 2px;
-        background: #7f72e4; }
-    .footer-01 ul.list-unstyled li a {
-      color: rgba(255, 255, 255, 0.7); }
-    .footer-01 .block-21 .text .heading a {
-      color: rgba(255, 255, 255, 0.7); }
-    .footer-01 .block-21 .meta > div a {
-      color: #7f72e4; }
-    .footer-01 .block-23 ul li {
-      color: rgba(255, 255, 255, 0.6); }
+        background: #7f72e4;
+      }
+      .footer-01 ul.list-unstyled li a {
+        color: rgba(255, 255, 255, 0.7);
+      }
+      .footer-01 .block-21 .text .heading a {
+        color: rgba(255, 255, 255, 0.7);
+      }
+      .footer-01 .block-21 .meta > div a {
+        color: #7f72e4;
+      }
+      .footer-01 .block-23 ul li {
+        color: rgba(255, 255, 255, 0.6);
+      }
       .footer-01 .block-23 ul li a {
-        color: rgba(255, 255, 255, 0.6); }
+        color: rgba(255, 255, 255, 0.6);
+      }
       .footer-01 .block-23 ul li .icon {
-        color: rgba(255, 255, 255, 0.4); }
-    .footer-01 .ftco-footer-social li a {
-      background: #7f72e4;
-      color: #fff; }
-  
+        color: rgba(255, 255, 255, 0.4);
+      }
+      .footer-01 .ftco-footer-social li a {
+        background: #7f72e4;
+        color: #fff;
+      }
     </style>
   </head>
 
@@ -231,11 +277,13 @@
             src="img/bg.png"
             alt="National Technology Week"
           />
-          <h2 class="text-center pt-2">National Technology Week 2023</h2>
-          <p class="text-center mb-0">
+          <h2 class="text-center pt-2 heading">
+            National Technology Week 2023
+          </h2>
+          <p class="text-center mb-0 subheading px-3">
             Held from 11th May to 14th May, 2023 at Pragati Maidan, New Delhi.
           </p>
-          <p class="px-5 pt-4 feedbackpara text-center">
+          <p class="px-3 pt-4 feedbackpara text-center content">
             The Govt. of India celebrated National Technology Week 2023 with
             involvement of 11 different ministries and Government departments,
             including Office of Principal Scientific Advisor, Ministry of
@@ -934,9 +982,9 @@
         <div class="container">
           <div class="row">
             <div class="col mb-0 mb-md-0">
-              <img src="img/logo.png" width="100%" alt="" />
+              <img src="img/logo.png" class="logoimg" alt="" />
               <br /><br />
-              <p>
+              <p class="foot">
                 All India Council for Technical Education (AICTE), Nelson
                 Mandela Marg, VasantKunj, New Delhi-110070.
               </p>
@@ -945,12 +993,12 @@
                   class="bi bi-envelope"
                   style="color: white; font-size: 20px"
                 ></i>
-                <p>micalumni@aicte-india.org</p>
+                <p class="foot">micalumni@aicte-india.org</p>
                 <i
                   class="bi bi-telephone"
                   style="color: white; font-size: 20px"
                 ></i>
-                <p>011-29581316</p>
+                <p class="foot">011-29581316</p>
               </ul>
             </div>
 
@@ -961,7 +1009,7 @@
                   <a
                     href="https://sih.gov.in/"
                     target="_blank"
-                    class="py-1 d-block"
+                    class="py-1 d-block foot"
                     >Smart India Hackathon</a
                   >
                 </li>
@@ -969,7 +1017,7 @@
                   <a
                     href="https://kavach.mic.gov.in/"
                     target="_blank"
-                    class="py-1 d-block"
+                    class="py-1 d-block foot"
                     >KAVACH</a
                   >
                 </li>
@@ -977,7 +1025,7 @@
                   <a
                     href="https://singaporeindiahackathon.com/"
                     target="_blank"
-                    class="py-1 d-block"
+                    class="py-1 d-block foot"
                     >Singapore India Hackathon</a
                   >
                 </li>
@@ -985,7 +1033,7 @@
                   <a
                     href="https://uia.mic.gov.in/"
                     target="_blank"
-                    class="py-1 d-block"
+                    class="py-1 d-block foot"
                     >UNESCO India Africa Hackathon</a
                   >
                 </li>
@@ -993,7 +1041,7 @@
                   <a
                     href="https://mic.gov.in/hackathon/samadhan"
                     target="_blank"
-                    class="py-1 d-block"
+                    class="py-1 d-block foot"
                     >Samadhan</a
                   >
                 </li>
@@ -1001,7 +1049,7 @@
                   <a
                     href="https://mic.gov.in/Hackathon/ddh2020"
                     target="_blank"
-                    class="py-1 d-block"
+                    class="py-1 d-block foot"
                     >Drug Discovery Hackathon</a
                   >
                 </li>
@@ -1009,7 +1057,7 @@
                   <a
                     href="https://mic.gov.in/hackathon/india-asean-hackathon"
                     target="_blank"
-                    class="py-1 d-block"
+                    class="py-1 d-block foot"
                     >ASEAN - India Hackathon</a
                   >
                 </li>
@@ -1017,7 +1065,7 @@
                   <a
                     href="https://mic.gov.in/hackathon/toycathon"
                     target="_blank"
-                    class="py-1 d-block"
+                    class="py-1 d-block foot"
                     >Toycathon</a
                   >
                 </li>
@@ -1031,7 +1079,7 @@
                     <a
                       href="https://mic.gov.in/innovation-council/iic"
                       target="_blank"
-                      class="py-1 d-block"
+                      class="py-1 d-block foot"
                       >Innovation Council</a
                     >
                   </li>
@@ -1039,7 +1087,7 @@
                     <a
                       href="https://ariia.gov.in/"
                       target="_blank"
-                      class="py-1 d-block"
+                      class="py-1 d-block foot"
                       >ARIIA</a
                     >
                   </li>
@@ -1047,7 +1095,7 @@
                     <a
                       href="https://yukti.mic.gov.in/"
                       target="_blank"
-                      class="py-1 d-block"
+                      class="py-1 d-block foot"
                       >Yukti 2.0</a
                     >
                   </li>
@@ -1055,7 +1103,7 @@
                     <a
                       href="https://kapila.mic.gov.in/"
                       target="_blank"
-                      class="py-1 d-block"
+                      class="py-1 d-block foot"
                       >KAPILA</a
                     >
                   </li>
@@ -1063,7 +1111,7 @@
                     <a
                       href="https://mic.gov.in/"
                       target="_blank"
-                      class="py-1 d-block"
+                      class="py-1 d-block foot"
                       >MoE’s Innovation Cell</a
                     >
                   </li>
@@ -1071,7 +1119,7 @@
                     <a
                       href="https://www.aicte-india.org/"
                       target="_blank"
-                      class="py-1 d-block"
+                      class="py-1 d-block foot"
                       >All India Council for Technical Education</a
                     >
                   </li>
@@ -1079,7 +1127,7 @@
                     <a
                       href="https://www.education.gov.in/"
                       target="_blank"
-                      class="py-1 d-block"
+                      class="py-1 d-block foot"
                       >Ministry of Education</a
                     >
                   </li>
@@ -1090,7 +1138,7 @@
           <hr width="100%" align="center" color="white" />
           <div class="row mt-2">
             <div class="col-md-6 text-left">
-              <p class="copyright">
+              <p class="copyright foot">
                 Copyright &copy;
                 <script>
                   document.write(new Date().getFullYear());
@@ -1099,23 +1147,58 @@
               </p>
             </div>
             <div class="col-md-6 text-right">
-				<p>
-					<a href="https://www.youtube.com/@MoEInnovationCell" target="_blank" class="mr-3">
-						<i class="bi bi-youtube" style="color: white; font-size: 22px"></i>
-					</a>
-					<a href="https://www.instagram.com/mhrd.innovationcell/" target="_blank" class="mr-3">
-						<i class="bi bi-instagram" style="color: white; font-size: 22px"></i>
-					</a>
-					<a href="https://twitter.com/mhrd_innovation" target="_blank" class="mr-3">
-						<i class="bi bi-twitter" style="color: white; font-size: 22px"></i>
-					</a>
-					<a href="https://www.facebook.com/mhrdInnovation/" target="_blank" class="mr-3">
-						<i class="bi bi-facebook" style="color: white; font-size: 22px"></i>
-					</a>
-					<a href="https://in.linkedin.com/company/moe-innovation-cell" target="_blank" class="mr-3">
-						<i class="bi bi-linkedin" style="color: white; font-size: 22px"></i>
-					</a>
-				</p>
+              <p>
+                <a
+                  href="https://www.youtube.com/@MoEInnovationCell"
+                  target="_blank"
+                  class="mr-3"
+                >
+                  <i
+                    class="bi bi-youtube"
+                    style="color: white; font-size: 22px"
+                  ></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/mhrd.innovationcell/"
+                  target="_blank"
+                  class="mr-3"
+                >
+                  <i
+                    class="bi bi-instagram"
+                    style="color: white; font-size: 22px"
+                  ></i>
+                </a>
+                <a
+                  href="https://twitter.com/mhrd_innovation"
+                  target="_blank"
+                  class="mr-3"
+                >
+                  <i
+                    class="bi bi-twitter"
+                    style="color: white; font-size: 22px"
+                  ></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/mhrdInnovation/"
+                  target="_blank"
+                  class="mr-3"
+                >
+                  <i
+                    class="bi bi-facebook"
+                    style="color: white; font-size: 22px"
+                  ></i>
+                </a>
+                <a
+                  href="https://in.linkedin.com/company/moe-innovation-cell"
+                  target="_blank"
+                  class="mr-3"
+                >
+                  <i
+                    class="bi bi-linkedin"
+                    style="color: white; font-size: 22px"
+                  ></i>
+                </a>
+              </p>
             </div>
           </div>
         </div>
